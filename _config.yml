@@ -4,9 +4,9 @@
 baseurl:
 url: http://www.luqu.space
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
+title: Myblog
+subtitle: "tracysaber"
+description: "luqu的个人博客"
 keywords: 码志, Zhuang Ma, mzlogin, mazhuang
 favicon: /头像.jpg
 timezone: Asia/Shanghai
