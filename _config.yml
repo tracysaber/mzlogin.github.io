@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: http://luqu.space
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: tracysaber
+subtitle: "sabertracy"
+description: "陆取的个人博客"
+keywords: hello
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -16,12 +16,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
-organization_url: http://www.zkh360.com
+author: luqu
+organization: iie
+organization_url: 
 github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+location: beijing, China
+email: jluluqu@163.com
 
 # ---------------- #
 #    Navigation    #
