@@ -84,16 +84,17 @@ repository: tracysaber/tracysaber.github.io
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
+# 三种评论插件的提供方，目前使用gitalk，支持中文
 comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: mzlogin
+    username: tracysaber
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
-    repo: blog-comments
+    owner: tracysaber
+    repo: blog_comments
     oauth:
         client_id: d2e1cbbd298958076462
         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
@@ -110,4 +111,4 @@ lazy_load_disqus : true
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: UA-80669434-1
+    analytics_id: UA-107439781-1
