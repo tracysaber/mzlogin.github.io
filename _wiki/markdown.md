@@ -14,14 +14,14 @@ keywords: Markdown
 ### 超链接
 
 ```
-[靠谱-ing](http://mazhuang.org)
+[靠谱-ing](http://www.luqu.space)
 
-<http://mazhuang.org>
+<http://www.luqu.space>
 ```
 
-[靠谱-ing](http://mazhuang.org)  
+[靠谱-ing](http://www.luqu.space)  
 
-<http://mazhuang.org>
+<http://www.luqu.space>
 
 ### 列表
 
@@ -103,17 +103,13 @@ Tips: `#` 与标题中间要加空格。
 
 ### 代码块
 
-```python
+> ```python
 print 'Hello, World!'
 ```
 
-1. list item1
-
-2. list item2
-
-   ```python
-   print 'hello'
-   ```
+```python
+print 'Hello, World!'
+```
 
 ### 图片
 
