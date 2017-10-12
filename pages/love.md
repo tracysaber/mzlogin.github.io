@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Links
-description: 链接
+description: 爱情纪念
 keywords: 友情链接
 comments: true
 menu: 链接
-permalink: /links/
+permalink: /love/
 ---
 
 > God made relatives. Thank God we can choose our friends.
