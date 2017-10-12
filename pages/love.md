@@ -4,7 +4,7 @@ title: Links
 description: 爱情纪念
 keywords: 友情链接
 comments: true
-menu: 链接
+menu: 爱情纪念
 permalink: /love/
 ---
 
