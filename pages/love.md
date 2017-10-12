@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: love-page
 title: 爱情纪念
 description: 爱情纪念
 keywords: 爱情
