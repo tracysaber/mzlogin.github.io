@@ -44,6 +44,10 @@ navs:
     label: 链接
 
   -
+    href: /love/
+    label: 爱情纪念
+
+  -
     href: /about/
     label: 关于
 
