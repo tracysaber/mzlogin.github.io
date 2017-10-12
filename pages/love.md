@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Links
+title: 爱情纪念
 description: 爱情纪念
-keywords: 友情链接
-comments: true
+keywords: 爱情
+comments: false
 menu: 爱情纪念
 permalink: /love/
 ---
