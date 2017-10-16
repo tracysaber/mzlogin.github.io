@@ -5,7 +5,7 @@ categories: BookReading
 description: 阅读笔记
 keywords: 读书
 ---
-深入理解java虚拟机 读书笔记
+深入理解java虚拟机 读书笔记 3
 
 # 第三章 垃圾收集器与内存分配策略
 ## 判断对象已死的方法

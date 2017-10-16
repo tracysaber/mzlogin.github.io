@@ -5,7 +5,7 @@ categories: BookReading
 description: 阅读笔记
 keywords: 读书
 ---
-深入理解java虚拟机 读书笔记
+深入理解java虚拟机 读书笔记 2
 
 # 第二章 Java内存区域与内存溢出异常
 ## Java虚拟机规范中规定了虚拟管管理的内存中将会包含以下几个数据区域
