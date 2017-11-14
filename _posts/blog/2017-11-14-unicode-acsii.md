@@ -61,3 +61,34 @@ keywords: 自嗨
 <meta charset="UTF-8" /> 
 ```
 的信息，表示该网页正是用的UTF-8编码。
+
+## 字符编码在编程语言中的体验
+### Java
+'''java
+package com.siyuan.jdk.test;  
+  
+import java.io.UnsupportedEncodingException;  
+import java.util.Arrays;  
+  
+public class StringGetBytes {  
+      
+    public static void main(String[] args) throws UnsupportedEncodingException {  
+        String str = "I AM 中国人";  
+        System.out.println("str = " + str);  
+        System.out.println("Default byte codes of str : " + Arrays.toString(str.getBytes()));  
+        System.out.println("GBK codes of str : " + Arrays.toString(str.getBytes("GBK")));  
+        System.out.println("UTF-8 codes of str : " + Arrays.toString(str.getBytes("UTF-8")));  
+        System.out.println("UTF-16 codes of str : " + Arrays.toString(str.getBytes("UTF-16")));  
+    }  
+      
+}  
+'''
+运行结果
+> str = I AM 中国人  
+Default byte codes of str : [73, 32, 65, 77, 32, -42, -48, -71, -6, -56, -53]  
+GBK codes of str : [73, 32, 65, 77, 32, -42, -48, -71, -6, -56, -53]  
+UTF-8 codes of str : [73, 32, 65, 77, 32, -28, -72, -83, -27, -101, -67, -28, -70, -70]  
+UTF-16 codes of str : [-2, -1, 0, 73, 0, 32, 0, 65, 0, 77, 0, 32, 78, 45, 86, -3, 78, -70]  
+
+1）默认的getBytes()返回的编码为GBK的，而不是JAVA中的char编码方式Unicode，即UTF-16
+通过跟踪String.getBytes()方法发现返回字节使用的编码为JVM的默认charset：Charset.defaultCharset()，而不是UTF-16
