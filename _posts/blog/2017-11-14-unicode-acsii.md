@@ -50,4 +50,4 @@ keywords: 自嗨
 
 用记事本编辑的时候，从文件读取的UTF-8字符被转换为Unicode字符到内存里，编辑完成后，保存的时候再把Unicode转换为UTF-8保存到文件：
 
-![图片](images/posts/unicode/0.png)
+![图片](/images/posts/unicode/0.png)
