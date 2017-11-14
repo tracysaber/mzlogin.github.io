@@ -65,7 +65,7 @@ keywords: 自嗨
 ## 字符编码在编程语言中的体验
 ### Java
 
-'''
+```java
 package com.siyuan.jdk.test;  
   
 import java.io.UnsupportedEncodingException;  
@@ -83,7 +83,7 @@ public class StringGetBytes {
     }  
       
 }  
-'''
+```
 
 运行结果
 > str = I AM 中国人  
