@@ -7,7 +7,7 @@ keywords: 自嗨
 ---
 字符编码概念问题
 
-# 字符编码
+## 字符编码
 
 字符串也是一种数据类型，但是，字符串比较特殊的是还有一个编码问题。
 
@@ -50,4 +50,14 @@ keywords: 自嗨
 
 用记事本编辑的时候，从文件读取的UTF-8字符被转换为Unicode字符到内存里，编辑完成后，保存的时候再把Unicode转换为UTF-8保存到文件：
 
-![图片](/images/posts/unicode/0.png)
+![图片1](/images/posts/unicode/0.png)
+
+浏览网页的时候，服务器会把动态生成的Unicode内容转换为UTF-8再传输到浏览器：
+
+![图片2](/images/posts/unicode/1.png)
+
+所以你看到很多网页的源码上会有类似 
+```
+<meta charset="UTF-8" /> 
+```
+的信息，表示该网页正是用的UTF-8编码。
