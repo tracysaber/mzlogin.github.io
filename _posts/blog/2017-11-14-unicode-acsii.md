@@ -94,3 +94,11 @@ UTF-16 codes of str : [-2, -1, 0, 73, 0, 32, 0, 65, 0, 77, 0, 32, 78, 45, 86, -3
 
 1）默认的getBytes()返回的编码为GBK的，而不是JAVA中的char编码方式Unicode，即UTF-16
 通过跟踪String.getBytes()方法发现返回字节使用的编码为JVM的默认charset：Charset.defaultCharset()，而不是UTF-16
+
+### Python
+
+在最新的Python 3版本中，字符串是以Unicode编码的，也就是说，Python的字符串支持多语言，例如：
+```
+>>> print('包含中文的str')
+包含中文的str
+```
