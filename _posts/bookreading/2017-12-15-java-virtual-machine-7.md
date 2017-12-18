@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 阅读《深入理解JAVA虚拟机》6
+title: 阅读《深入理解JAVA虚拟机》7
 categories: BookReading
 description: 阅读笔记
 keywords: 读书
 ---
-深入理解java虚拟机 读书笔记 6
+深入理解java虚拟机 读书笔记 7
 
 # 第七章 虚拟机类加载机制
 ## 概述
