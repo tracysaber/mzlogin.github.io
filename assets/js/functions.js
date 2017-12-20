@@ -6,8 +6,8 @@ var clientHeight = $(window).height();
 $(function () {
     // setup garden
 	$loveHeart = $("#loveHeart");
-	var offsetX = $loveHeart.width() / 2 +200;
-	var offsetY = $loveHeart.height() / 2 - 55 +200;
+	var offsetX = $loveHeart.width() / 2 ;
+	var offsetY = $loveHeart.height() / 2 - 55 ;
     $garden = $("#garden");
     gardenCanvas = $garden[0];
 	gardenCanvas.width = $("#loveHeart").width();
@@ -43,7 +43,7 @@ function getHeartPoint(angle) {
 	var t = angle / Math.PI;
 	var x = 19.5 * (16 * Math.pow(Math.sin(t), 3));
 	var y = - 20 * (13 * Math.cos(t) - 5 * Math.cos(2 * t) - 2 * Math.cos(3 * t) - Math.cos(4 * t));
-	return new Array(offsetX + x, offsetY + y);
+	return new Array(offsetX + x + 200 , offsetY + y +200);
 }
 
 function startHeartAnimation() {
