@@ -22,6 +22,7 @@ keywords: 读书
 * /WEB-INF 仅仅能被应用程序自身使用，对Tomcat和别的应用程序都不可见
 
 ![图片1](/images/bookreading/jvm9/1.png)
+
 下面的四个加载器是Tomcat自己定义的类加载器。其中WebApp类加载器和Jsp类加载器通常会存在多个实例，每一个Web应用程序对应一个WebApp类加载器。每一个Jsp文件对应一个Jsp类加载器。
 对于Tomcat的6.x版本，只有指定了tomcat/conf/catalina.properties配置文件的server.loader和share.loader项后才会建立这两个类加载器的实例，否则都会用CommonClassLoader的实例代替，而默认的配置文件中没有设置这两项，所以顺理成章地把这三个目录合并到/lib目录中去。
 ## OSGi:灵活的类加载器架构
