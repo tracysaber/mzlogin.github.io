@@ -13,7 +13,7 @@ Oozie安装完成后测试有可能出现如下错误
 ![图片1](/images/posts/oozie/1.png)
 
 原因是因为oozie各节点的时间没有同步，需要对于所有的节点进行一次同步
-通过* oozie job –oozie http://namenode:11000/oozie -config /path/to/job.properties *–run可以在命令行里启动相应的作业。一些正常的作业可以比较容易地进行，比如执行shell脚本或者跑一个mapreduce的程序。
+通过*oozie job –oozie http://namenode:11000/oozie -config /path/to/job.properties –run*可以在命令行里启动相应的作业。一些正常的作业可以比较容易地进行，比如执行shell脚本或者跑一个mapreduce的程序。
 提交spark作业有几点需要注意的地方，需要指定master的运行模式，本地运行local模式的配置比较少，要运行在yarn上的话，需要在workflow.xml中增加SPARK_HOME的信息。
 ```xml
 <global>
