@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: About
 description: 打码改变世界
 keywords: luqu, 陆取
