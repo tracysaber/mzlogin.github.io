@@ -17,4 +17,4 @@ keywords: 读书
 而其中程序语言、虚拟机、API类库统称为JDK(Java Development Kit),JDK是用来支持Java程序开发的最小环境。
 而Java SE API子集和Java虚拟机这两个部分统称为JRE(Java Runtime Environment)，JRE是支持Java程序运行的最小环境。
 
-![图片1](/images/bookreading/jvm1/1.png)
+![图片1](http://iieluqu.oss-cn-beijing.aliyuncs.com/images/1.png)
