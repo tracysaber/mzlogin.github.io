@@ -7,7 +7,7 @@ date_format: "ordinal"
 title: Myblog
 subtitle: "tracysaber"
 description: "luqu的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+keywords: luqu, Zhuang Ma, mzlogin, mazhuang
 favicon: /tracysaber.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
