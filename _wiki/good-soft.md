@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: 善用佳软
+title: 优秀软件
 categories: Recommends
 description: 用正确的工具做对的事情
 keywords: 软件, 推荐
@@ -24,8 +24,8 @@ keywords: 软件, 推荐
 | 源码阅读                             | Source Insight | IDE/Vim        |
 | 笔记                                 | OneNote        | OneNote        |
 | 终端                                 | Cmder          | zsh            |
-| 视频播放器                           | QQ 影音        | mpv            |
-| 下载                                 | 迅雷精简版     | 迅雷           |
+| 视频播放器                           | potplayer      | mpv            |
+| 下载                                 | 迅雷极速版     | 迅雷           |
 | 录制屏幕生成 GIF                     | LICEcap        | LICEcap        |
 
 ## 亮点
