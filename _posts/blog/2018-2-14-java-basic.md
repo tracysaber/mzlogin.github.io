@@ -9,7 +9,8 @@ java面试会考察的基础知识点
 
 # 语言知识
 * Java是否存在内存泄漏的问题
-```
+
+```shell
 1.静态集合类。比如HashMap这类数据结构，如果这些容器是静态的，由于他们的生命周期和程序一致，所以容器内的对象在容器的生命周期结束之前不会被释放。
 2.各种连接。比如数据库、网络等等。如果访问数据库的过程中对Connection、Statement等不显式关闭，将会造成大量的对象无法被回收，从而引起内存泄漏。
 3.
@@ -17,32 +18,7 @@ java面试会考察的基础知识点
 
 ```
 
-# caffe2 安装教程
-我的本机环境如下，任何的环境上的不一致可能会带来一些安装上的问题，所以这个教程只是一个简单的参考。
-## 环境
-* 操作系统:  Ubuntu 16.04 
-* GPU型号:   Tesla M40 24GB 
-* Python:   2.7    路径 /usr/bin/python即全局的python解释器
 
-## caffe2必备依赖的安装
-```shell
-sudo apt-get update
-sudo apt-get install -y --no-install-recommends \
-      build-essential \
-      cmake \
-      git \
-      libgoogle-glog-dev \
-      libprotobuf-dev \
-      protobuf-compiler \
-      python-dev \
-      python-pip                          
-sudo pip install numpy protobuf
-```
-
-## GPU用户需要安装的依赖
-GPU的用户需要GPU驱动，除此以外还有CUDA和CUDNN的依赖。详细方法可以参照这个博客的内容。
-[caffe安装教程](http://blog.csdn.net/u012535905/article/details/78659088)
-以下介绍一种简单的方法，根据自己环境调整
 ### cuda的apt-get安装，版本8.0
 ```shell
 sudo apt-get update && sudo apt-get install wget -y --no-install-recommends
