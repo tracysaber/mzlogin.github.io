@@ -1,23 +1,21 @@
 ---
 layout: post
-title: java面试基础内容2
+title: java面试基础内容3
 categories: Blog
 description: 没有靠谱描述
 keywords: java
 ---
-java面试会考察的基础知识点2
+java面试会考察的基础知识点3
 
 # 语言知识
-* 多线程问题
-在Java语言中，线程有四种状态，*运行*，*就绪*，*挂起*，*结束*。
-
-多线程同步的实现方法有哪些
-1. synchronized关键字
-2. wait()方法和notify()方法
-3. Lock
-* lock()。以阻塞的方式获取锁。等待直到获取锁。
-* tryLock(long timeout,TimeUnit unit)。如果获取到了锁返回True，否则等待相应的时间单元，期间如果得到锁就返回True，否则到时就返回False。
-* lockInterruptibly()。主要区别在于如果获取不到锁，当前线程就会处于休眠的状态。
+* 面向对象的知识
+面向对象的主要特征包括抽象、继承、封装和*多态*。
+1. 继承。
+* class 子类 extends 父类。
+* Java不支持多重继承，一个子类最多只能有一个父类，但是可以实现多个接口达到多重继承的目的。
+* 子类只能继承父类的非私有成员变量和方法。
+* 成员变量重名时子类会覆盖父类的变量。
+* 相同的函数子类会重写父类的方法。
 
 synchronized与Lock有什么异同
 1. 用法不一样。synchronized既可以加载方法上，也可以加在特定代码块中，括号中表示需要加锁的对象。而Lock需要显示地指定起始位置和终止位置。synchrozied是托管给JVM去操作的，而Lock的锁定是通过自己编写代码实现的，有着更精确的线程语义。
