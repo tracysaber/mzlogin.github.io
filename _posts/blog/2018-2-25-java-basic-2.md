@@ -1,15 +1,15 @@
 ---
 layout: post
-title: java面试基础内容
+title: java面试基础内容2
 categories: Blog
 description: 没有靠谱描述
 keywords: java
 ---
-java面试会考察的基础知识点
+java面试会考察的基础知识点2
 
 # 语言知识
 * 多线程问题
-在Java语言中，线程有四种状态，*运行*，*就绪*，*挂起*，*结束*
+在Java语言中，线程有四种状态，*运行*，*就绪*，*挂起*，*结束*。
 
 多线程同步的实现方法有哪些
 1. synchronized关键字
