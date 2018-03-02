@@ -1,6 +1,6 @@
 ---
 layout: post
-title: java面试基础内容
+title: java基础-内存关键词等
 categories: Blog
 description: 没有靠谱描述
 keywords: java

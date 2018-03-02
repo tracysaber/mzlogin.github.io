@@ -1,6 +1,6 @@
 ---
 layout: post
-title: java面试基础内容3
+title: java基础-面向对象等
 categories: Blog
 description: 没有靠谱描述
 keywords: java
