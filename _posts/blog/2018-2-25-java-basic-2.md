@@ -1,7 +1,7 @@
 ---
 layout: post
 title: java基础-多线程等
-categories: Blog
+categories: Java基础
 description: 没有靠谱描述
 keywords: java
 ---
