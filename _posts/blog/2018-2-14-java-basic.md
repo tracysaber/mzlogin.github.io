@@ -23,7 +23,7 @@ java面试会考察的基础知识点
 | default | √ | √ | × |    ×     |
 | private | √ | × | × |     ×    |
 
-##Comparator和Comparable的区别
+## Comparator和Comparable的区别
 
 |参数	|Comparable	|Comparator|
 | :-----: | :------:| :-----: | 
