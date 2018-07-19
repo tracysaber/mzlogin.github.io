@@ -13,9 +13,14 @@ java面试会考察的基础知识点4
 
 ![集合关系图](/images/java/java-collection-hierarchy.jpeg)
 
-1. Set表示数学意义上的集合概念，其最主要的特点是在集合中的元素不能重复。因此存入Set中的每个元素都必须定义equals()方法来确保对象的唯一性。有两个具体实现，HashSet和TreeSet(元素有序)。
+![map关系图](/images/java/MapClassHierarchy.jpg)
+
+1. Set表示数学意义上的集合概念，其最主要的特点是在集合中的元素不能重复。因此存入Set中的每个元素都必须定义equals()方法来确保对象的唯一性。
+* <interface> **SortedSet** ,保证其中的key都是有序的，要求插入的数据类型都实现了 **Comparable** 接口。 ->子接口  **NavigableSet** 提供了一些根据某个key寻找它前后key的方法。
+* 实现类， **TreeSet** 是 **NavigableSet** 的直接实现子类，
 2. List就是链表，保存了对象进入的顺序，所以能对列表中的每一个元素的插入和删除位置进行精确的控制。LinkedList,ArrayList,Vector都实现了这个接口。
-3. Map提供了从键映射到值的数据结构。用于保存键值对，值可以重复，但键必须唯一。
+3. Queue 队列，
+4. Map提供了从键映射到值的数据结构。用于保存键值对，值可以重复，但键必须唯一。
 
 ## 迭代器
 迭代器(Iterator)是一个对象，提供了一种访问一个容器对象中的各个元素。可以不需要了解容器底层的结构，就可以实现对容器的遍历。被称为轻量级的容器。

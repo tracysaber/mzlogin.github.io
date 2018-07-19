@@ -23,6 +23,15 @@ java面试会考察的基础知识点
 | default | √ | √ | × |    ×     |
 | private | √ | × | × |     ×    |
 
+##Comparator和Comparable的区别
+
+|参数	|Comparable	|Comparator|
+| :-----: | :------:| :-----: | 
+|排序逻辑	|排序逻辑必须在待排序对象的类中，故称之为自然排序	|排序逻辑在另一个实现|
+|实现	|实现Comparable接口	|实现Comparator接口|
+|排序方法	|int compareTo(Object o1)	|int compare(Object o1,Object o2)|
+|触发排序	|Collections.sort(List)|	Collections.sort(List, Comparator)|
+|接口所在包	|java.lang.Comparable	|java.util.Comparator|
 
 ## Java是否存在内存泄漏的问题
 
