@@ -15,6 +15,7 @@ java面试会考察的基础知识点
 * 一种布尔类型 boolean ,true or false。
 
 ## 关键词权限问题
+
 | 关键词  |   类    |   子类  |   包内  |   包外   |
 | :-----: | :------:| :-----: | :-----: |  :-----: |
 | public | √ | √ | √ |   √      |
@@ -22,7 +23,9 @@ java面试会考察的基础知识点
 | default | √ | √ | × |    ×     |
 | private | √ | × | × |     ×    |
 
-
+| HEADER1 | HEADER2 | HEADER3 | HEADER4 |
+| ------- | :------ | :-----: | ------: |
+| content | content | content | content |
 ## Java是否存在内存泄漏的问题
 
 ```shell
