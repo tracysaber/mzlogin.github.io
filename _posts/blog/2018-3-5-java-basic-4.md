@@ -32,9 +32,7 @@ java面试会考察的基础知识点4
 
 4. Map提供了从键映射到值的数据结构。用于保存键值对，值可以重复，但键必须唯一。
 * **HashMap**  初始容量是16，加载因子是0.75，每次扩容的大小是之前的两倍。
-
 * **HashTable** 初始容量是11，加载因子是0.75，扩容增量：原数组长度+1。
-
 * **WeakHashMap** 中的key是弱引用，只要key不再被外部引用，就会被回收。
 
 ## 迭代器
@@ -43,5 +41,5 @@ java面试会考察的基础知识点4
 2. 使用Iterator的hasNext()方法判断容器内是否还有元素，如果有通过next()获取下一个元素。
 3. 可以通过remove()删除迭代器返回的元素。
 
-### **Iterator** 与 **ListIterator** 的区别
+### Iterator与ListIterator的区别
  **Iterator** 只能正向遍历集合， **ListIterator** 继承自 **Iterator** ，专门针对List，可以从两个方向来遍历List。
