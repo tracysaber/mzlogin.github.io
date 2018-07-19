@@ -16,7 +16,7 @@ java面试会考察的基础知识点4
 ![map关系图](/images/java/MapClassHierarchy.jpg)
 
 1. Set表示数学意义上的集合概念，其最主要的特点是在集合中的元素不能重复。因此存入Set中的每个元素都必须定义equals()方法来确保对象的唯一性。
-* <interface> **SortedSet** ,保证其中的key都是有序的，要求插入的数据类型都实现了 **Comparable** 接口。 ->子接口  **NavigableSet** 提供了一些根据某个key寻找它前后key的方法。
+* interface  **SortedSet**  保证其中的key都是有序的，（要求插入的数据类型都实现了 **Comparable**  接口） -->子接口  **NavigableSet**  提供了一些根据某个key寻找它前后key的方法。
 * 实现类， **TreeSet** 是 **NavigableSet** 的直接实现子类，能够保证key的有序排列。
 
 2. List就是链表，保存了对象进入的顺序，所以能对列表中的每一个元素的插入和删除位置进行精确的控制。
