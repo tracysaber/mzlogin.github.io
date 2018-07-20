@@ -42,7 +42,14 @@ CAS中存在着三个值，一个是内存位置的值V，一个是旧的预期�
 
 
 ## Java异常
+![异常图](/images/java/throwable.png)
 ### Throwable
-是Java中所有错误和异常的超类。
+是Java中所有错误和异常的超类。Error和Excetion都是它的子类。
 ### Error
 系统错误，用户无法操作，一般由JVM去处理。
+### Exception
+程序可以处理的异常，分成 **CheckedException** (受检异常)和 **UncheckedException** (不受检异常)。
+#### 受检异常
+最常见的异常，最常见的就是 **IOException** 和 **SQLException** 。发生在编译阶段，Java强制程序去捕获这类异常。
+#### 不受检异常(运行时异常)
+常见的包括空指针异常、类型转换异常、数组越界异常、数组存储异常、缓冲区溢出异常、算术异常等。
