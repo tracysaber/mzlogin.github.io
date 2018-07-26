@@ -5,7 +5,7 @@ categories: Java基础
 description: 没有靠谱描述
 keywords: java
 ---
-java面试会考察的基础知识点
+关键词、数据类型、内存泄漏等
 
 # 语言知识
 ## 八种基本数据类型

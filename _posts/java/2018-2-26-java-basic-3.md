@@ -5,7 +5,7 @@ categories: Java基础
 description: 没有靠谱描述
 keywords: java
 ---
-java面试会考察的基础知识点3
+面向对象
 
 # 语言知识
 ## 面向对象的知识

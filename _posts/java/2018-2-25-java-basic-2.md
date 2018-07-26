@@ -5,7 +5,7 @@ categories: Java基础
 description: 没有靠谱描述
 keywords: java
 ---
-java面试会考察的基础知识点2
+多线程、并发、同步、异常、IO
 
 # 语言知识
 ## 多线程问题
