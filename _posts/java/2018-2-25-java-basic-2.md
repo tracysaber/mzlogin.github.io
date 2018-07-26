@@ -86,3 +86,6 @@ CAS中存在着三个值，一个是内存位置的值V，一个是旧的预期�
 ![outputstream图](/images/java/io-outputstream.png)
 ![reader图](/images/java/io-reader.png)
 ![writer图](/images/java/io-writer.png)
+
+### 
+**字节流**没有缓冲区，是直接输出的，而**字符流**是输出到缓冲区的。因此在输出时，字节流不调用colse()方法时，信息已经输出了，而字符流只有在调用close()方法关闭缓冲区时，信息才输出。要想字符流在未关闭时输出信息，则需要手动调用flush()方法。
