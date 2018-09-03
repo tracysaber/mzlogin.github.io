@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 阅读《深入理解JAVA虚拟机》7
+title: 阅读《深入理解JAVA虚拟机》-类加载
 categories: BookReading
 description: 阅读笔记
 keywords: 读书
