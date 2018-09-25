@@ -5,7 +5,7 @@ categories: Java基础
 description: 没有靠谱描述
 keywords: java
 ---
-集合、容器，Arrays,Collections等工具类
+集合、容器，Arrays，Collections等工具类
 
 # 语言知识
 ## Java Collections
