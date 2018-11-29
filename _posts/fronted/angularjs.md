@@ -3,12 +3,14 @@ layout: post
 title: angular echarts ngx-echarts采坑实录
 categories: 前端
 description: 没有
-keywords: js angular echarts
+keywords: js
 ---
 
 # angular echarts ngx-echarts使用记录
 项目中要使用地图，自然而然想到echarts的map，不过使用过程中遇到大坑，网上没有找到合适的解答，后来找到一个可行的解决方案。
-对应错误：在angular-cli中使用ngx-echarts显示echarts的地图组件失败， 一片空白
+
+对应错误：在angular-cli中使用ngx-echarts显示echarts的地图组件失败，一片空白.
+
 echarts是百度的一个图表展示的开源工具，方便好用并且十分强大。
 
 ## 纯js使用方法
@@ -175,7 +177,7 @@ export class HongkongPdComponent implements OnInit {
 
 }
 ```
-这里给出的例子是ngx-echarts官方demo，实际操作的时候，我遇到了比较大的困难。这里通过网络请求获取到对应想要显示地区的地图json文件。然后把这个json当作一个object对象参数传递到echarts.registerMap方法中去。（地图使用之前必须使用这个函数注册，第一个参数是对该地图的命名，后续option中mapType的值必须和注册时的名字一样）但我自己这么尝试的时候始终无法显示出地图。
+这里给出的例子是ngx-echarts官方demo，实际操作的时候，我遇到了比较大的困难。这里通过网络请求获取到对应想要显示地区的地图json文件。然后把这个json当作一个object对象参数传递到echarts.registerMap方法中去。（地图使用之前必须使用这个函数注册，第一个参数是对该地图的命名，后续option中mapType的值必须和注册时的名字一样）但我自己这么尝试的时候始终无法显示出地图，该区域一片空白。
 
 ### 解决方案
 除了自己进行注册之外，我们也可以引入包含注册过程的js文件，这样调用的时候直接修改options就能成功显示了。
