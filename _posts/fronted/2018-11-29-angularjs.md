@@ -6,10 +6,10 @@ description: 没有
 keywords: js
 ---
 
-# angular echarts ngx-echarts使用记录
-项目中要使用地图，自然而然想到echarts的map，不过使用过程中遇到大坑，网上没有找到合适的解答，后来找到一个可行的解决方案。
+# angular echarts ngx-echarts map使用记录
+项目中要使用地图，自然而然想到echarts的地图（map），不过使用过程中遇到大坑，网上没有找到合适的解答，后来找到一个可行的解决方案。
 
-对应错误：在angular-cli中使用ngx-echarts显示echarts的地图组件失败，一片空白.
+对应错误：在angular-cli中使用ngx-echarts显示echarts的地图组件（map）失败，一片空白.
 
 echarts是百度的一个图表展示的开源工具，方便好用并且十分强大。
 
